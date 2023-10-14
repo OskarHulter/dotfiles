@@ -33,9 +33,17 @@ export EDITOR='nvim'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias zshrc="nvim ~/.zshrc"
 alias omzsh="nvim ~/.oh-my-zsh"
+alias zshrc="nvim ~/.zshrc"
 alias sz="source ~/.zshrc"
+alias wm="zellij"
+alias lg="lazygit"
+alias ld="lazydocker"
+alias diff="difftastic"
+alias fe="yazi"
+alias ls="yazi"
+alias explorer="yazi"
+alias exp="yazi"
 
 export PATH=$HOME/nvim-macos/bin:$PATH
 export PATH="/Users/osh/bin:$PATH" 
