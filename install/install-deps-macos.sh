@@ -20,6 +20,7 @@ brew install zoxide
 brew install lazygit
 brew install lazydocker
 brew install yazi
+brew install glow
 
 # brew tap jakehilborn/jakehilborn
 # brew install displayplacer
