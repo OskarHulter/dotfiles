@@ -1,0 +1,139 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "\"FiraCode Nerd Font Mono\"",
+  "editor.fontWeight": "450",
+  "editor.fontSize": 15,
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "snyk.advanced.cliPath": "/Users/osh/Library/Application Support/snyk-ls/snyk-macos",
+  "snyk.yesWelcomeNotification": false,
+  "terminal.integrated.fontSize": 14,
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "snyk.trustedFolders": [
+    "/Users/osh/code/consumerauthentication-web",
+    "/Users/osh/code/consumerauthentication-web",
+    "/Users/osh/code/consumersite-monorepo",
+    "/Users/osh/code/businessunitprofile-consumersite",
+    "/Users/osh/Documents/monorepo-poc/sln-workspace",
+    "/Users/osh/code/businessapp-microsites",
+    "/Users/osh/code/consumersite-appshell",
+    "/Users/osh/code/categoriespages-consumersite",
+    "/Users/osh/code/productquestions-askform"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "workbench.iconTheme": "bearded-icons",
+  "terminal.integrated.fontFamily": "\"FiraCode Nerd Font Mono\"",
+  "cssvar.files": [
+    "./node_modules/open-props/open-props.min.css",
+    // if you have an alternative path to where your styles are located
+    // you can add it in this array of files
+    "assets/styles/variables.css"
+  ],
+  // Do not ignore node_modules css files, which is ignored by default
+  "cssvar.ignore": [],
+  // add support for autocomplete in JS or JS like files
+  "cssvar.extensions": ["css", "scss", "postcss", "jsx", "tsx"],
+  "cssvar.postcssPlugins": ["postcss-jit-props"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "window.title": "${activeFolderShort}${separator}${rootName}${separator}${profileName}",
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "yaml.schemas": {
+    "file:///Users/osh/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "terminal.external.osxExec": "Warp.app",
+  "terminal.integrated.copyOnSelection": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "solid",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.maxComputationTime": 0,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "workbench.statusBar.visible": false,
+  "editor.lineHeight": 23,
+  "editor.mouseWheelZoom": true,
+  "editor.guides.indentation": false,
+  "editor.tabSize": 2,
+  "breadcrumbs.icons": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showStructs": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showVariables": false,
+  "breadcrumbs.symbolPath": "off",
+  "workbench.editor.titleScrollbarSizing": "large",
+  "notebook.breadcrumbs.showCodeCells": false,
+  "workbench.editor.enablePreview": false,
+  "playwright.reuseBrowser": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "nxConsole.showNodeVersionOnStartup": false,
+  // Custom tags for the parser to use
+  "yaml.customTags": [
+    "!And",
+    "!If",
+    "!Not",
+    "!Equals",
+    "!Or",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Join sequence"
+  ],
+  // Enable/disable default YAML formatter (requires restart)
+  "yaml.format.enable": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
