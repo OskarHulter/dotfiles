@@ -11,9 +11,9 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(gh zoxide vi-mode rsync nvm node fzf fd fig docker docker-compose brew alias-finder yarn ripgrep)
 
 zstyle ':omz:plugins:alias-finder' autoload yes # disabled by default
-zstyle ':omz:plugins:alias-finder' longer yes # disabled by default
-zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
-zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
+zstyle ':omz:plugins:alias-finder' longer yes   # disabled by default
+zstyle ':omz:plugins:alias-finder' exact yes    # disabled by default
+zstyle ':omz:plugins:alias-finder' cheaper yes  # disabled by default
 zstyle ':omz:plugins:nvm' lazy yes
 
 source $ZSH/oh-my-zsh.sh
@@ -44,16 +44,17 @@ alias fe="yazi"
 alias ls="yazi"
 alias explorer="yazi"
 alias exp="yazi"
+alias gitconfig="git config --list --show-origin"
 
 export PATH=$HOME/nvim-macos/bin:$PATH
-export PATH="/Users/osh/bin:$PATH" 
+export PATH="/Users/osh/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/osh/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 NVM_HOMEBREW=$(brew --prefix nvm)
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 # place this after nvm initialization!
 autoload -U add-zsh-hook
 load-nvmrc() {
