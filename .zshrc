@@ -45,6 +45,8 @@ alias ls="yazi"
 alias explorer="yazi"
 alias exp="yazi"
 alias gitconfig="git config --list --show-origin"
+alias disk="duf"
+alias dl="aria2"
 
 export PATH=$HOME/nvim-macos/bin:$PATH
 export PATH="/Users/osh/bin:$PATH"
